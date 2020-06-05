@@ -1,0 +1,33 @@
+.bg-rodape1{
+    background-color: #312b45;
+
+}
+
+.bg-rodape1 ul li{
+    list-style: none;
+}
+
+.bg-rodape1 ul{
+    -webkit-padding-start: 0;
+    -moz-padding-start: 0;
+}
+
+.bg-card-rodape{
+    background-color: #ff3859;
+}
+
+.icon-banner-rodape{
+    color: #c42841;
+}
+
+.bg-rodape2{
+    background-color: #4c465f;    
+}
+
+.underline-footer{
+    content: '';
+    border: 2px solid #ff3859;
+    width: 70px;
+    display: block;
+    margin-top: 5px;
+}

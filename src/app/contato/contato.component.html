@@ -1,0 +1,57 @@
+<div class="container-fluid bg-contato" id="contato">
+    <div class="mt-2 py-4">
+        <section class="container">
+            <header id="col-md-12">
+                <h2 class="text-light text-center">
+                    Contato
+                </h2>
+                <span class="underline">
+                </span>
+            </header>
+            <div class="row">
+                <div class="col">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="tNome">
+                                Nome:
+                            </label>
+                            <input type="text" name="txtNome" id="tNome" class="form-control"
+                                placeholder="Digite o Nome" (input)="pegarNome($event)" [value]="contato.getNome()"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="tEmail">
+                                Email:
+                            </label>
+                            <input type="email" name="txtEmail" id="tEmail" class="form-control"
+                                placeholder="Digite o Email" (input)="pegarEmail($event)" [value]="contato.getEmail()"/>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-3">
+                                <label for="tDataNasc">
+                                    Data de Nascimento:
+                                </label>
+                                <input type="date" name="txtDataNasc" id="tDataNasc" class="form-control"
+                                placeholder="Digite a Data de Nascimento" (input)="pegarDataNascimento($event)" [value]="contato.getDataNascimento()"/>
+                            </div>
+
+                            <div class="form-group col-md-3">
+                                <label for="tIdade">
+                                    Idade:
+                                </label>
+                                <input type="number" name="txtIdade" id="tIdade" class="form-control"
+                                placeholder="Digite sua Idade" (input)="pegarIdade($event)" [value]="contato.getIdade"/>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary" type="submit" (click)="mostrarDados()" >
+                            Enviar
+                        </button>
+                        &nbsp;
+                        <button class="btn btn-success" type="reset">
+                            Limpar
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>

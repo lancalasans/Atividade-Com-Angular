@@ -1,0 +1,27 @@
+.bg-menu{
+    background-color: #68627a;
+}
+
+#menu{
+    padding-left: 80px;
+}
+
+.btn-agendar{
+    border: 2px solid #fff;
+    background: none;
+    position: relative;
+    color: #fff;
+    z-index: 1;
+    border-radius: 30px;
+    height: 100%;
+}
+
+.btn-agendar:hover{
+    color: #68627a;
+    background: #fff;
+    border-color: #fff;
+    transition: all .50s ease-in-out;
+    -moz-transition: all .50s ease-in-out;
+    -webkit-transition: all .50s ease-in-out;
+}
+

@@ -1,0 +1,12 @@
+.bg-servico{
+    background: linear-gradient(131.26deg, #312b45 30%, #ff3859 100%);
+}
+
+.underline{
+    content: '';
+    border: 2px solid #ff3859;
+    width: 120px;
+    display: block;
+    margin-bottom: 8px;
+    margin: 0 auto;    
+}

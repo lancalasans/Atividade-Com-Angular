@@ -1,0 +1,39 @@
+<div class="container-fluid my-2">
+    <div id="slideShow" class="carousel slide" 
+         data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li class="active" data-target="#slideShow"
+                data-slide-to="0">
+            </li>
+            <li data-target="#slideShow"
+                data-slide-to="1">
+            </li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="">
+                    <img [src]="img1" alt="" 
+                         class="d-block w-100"/>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="">
+                    <img [src]="img2" alt="" 
+                         class="d-block w-100"/>
+                </a>
+            </div>
+        </div>
+        <a href="#slideShow" class="carousel-control-prev"
+           role="button" data-slide="prev">
+           <span class="carousel-control-prev-icon"
+                 aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>        
+        <a href="#slideShow" class="carousel-control-next"
+           role="button" data-slide="next">
+           <span class="carousel-control-next-icon"
+                 aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>        
+    </div>
+</div>
